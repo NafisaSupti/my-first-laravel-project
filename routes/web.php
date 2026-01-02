@@ -17,6 +17,3 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return "<h1>Hello! I am Nafisa, and this is my first Laravel Route!</h1>";
 });
-Route::get('/dashboard', function () {
-    return view('student_dashboard');
-});
